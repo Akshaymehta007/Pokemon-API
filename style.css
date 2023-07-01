@@ -1,0 +1,51 @@
+/* CSS for the Pokémon list container */
+#pokemonList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* CSS for each Pokémon card */
+  .pokemon {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #dadff7;
+    text-align: center;
+  }
+  
+  .pokemon h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon p {
+    margin-bottom: 5px;
+  }
+  
+  /* CSS for the previous and next buttons */
+  #prevBtn,
+  #nextBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #prevBtn:hover,
+  #nextBtn:hover {
+    background-color: #ddd;
+  }
+  
+  
